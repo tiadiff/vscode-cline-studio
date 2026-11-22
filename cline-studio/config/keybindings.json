@@ -1,0 +1,14 @@
+[
+  {
+    "key": "f11",
+    "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "cline.openFullScreen"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.files.openFolder"
+  }
+]

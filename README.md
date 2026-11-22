@@ -1,4 +1,32 @@
-# Visual Studio Code - Open Source ("Code - OSS")
+# Cline Agent Studio — VS Code Fork
+
+<p align="center">
+  <img src="cline-studio/assets/cline-studio.png" width="84" alt="Cline Agent Studio" />
+</p>
+
+An official fork of [Visual Studio Code (`Code - OSS`)](https://github.com/microsoft/vscode) tailored as a minimalist, monochrome dark grayscale AI coding workstation centered around [Cline Studio (`tiadiff/cline-studio`)](https://github.com/tiadiff/cline-studio).
+
+### Highlights
+
+- **Monochrome Office Minimal Dark Workspace**: Matte charcoal (`#0e0f10`) workbench and webview theme with offline `Inter Variable` and `Geist Mono Variable` fonts.
+- **Focused 3-Pane or Solo Cline Layout**: File Explorer (left), single-file Code Editor (`showTabs: single`, 1 file at a time in the center), and locked Cline Studio panel (right) — switchable to Cline-only full-window mode from Settings or the top Studio bar.
+- **Inline Model & Context Window Controls + Per-Message `tok/s` Metrics**: Powered by the companion [tiadiff/cline-studio](https://github.com/tiadiff/cline-studio) extension fork.
+- **Startup Project Picker & Custom Desktop App Icon**: Minimal dark project selector on launch with recent project history and automatic Desktop shortcut creation (`cline-studio/assets/cline-studio.ico`).
+- **Fully Isolated Profile**: Stores all runtime data, extensions, and sessions inside gitignored local directories (`data/`, `extensions/`) without touching your existing VS Code installation.
+
+### Quick Start (Windows)
+
+Download `Cline-Agent-Studio-v1.0.0.zip` from [Releases](https://github.com/tiadiff/vscode-cline-studio/releases), extract it anywhere, and run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\Setup-Cline-Studio.ps1
+```
+
+See [cline-studio/README.md](cline-studio/README.md) for full documentation, keyboard shortcuts, and privacy details.
+
+---
+
+## Visual Studio Code - Open Source ("Code - OSS")
 [![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
 [![Bugs](https://img.shields.io/github/issues/microsoft/vscode/bug.svg)](https://github.com/microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 

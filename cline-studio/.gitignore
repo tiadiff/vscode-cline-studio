@@ -1,0 +1,39 @@
+# =====================================================================
+# STRICT PRIVACY & SESSION EXCLUSIONS
+# Never commit local VS Code user data, API keys, cookies, tokens,
+# AI conversation history, logs, or machine-specific paths.
+# =====================================================================
+data/
+extensions/
+recent-projects.json
+
+# VS Code / Chromium databases, caches, cookies & logs
+*.vscdb
+*.vscdb-journal
+*.vscdb.backup
+*.log
+*.tmp
+*.bak
+*.lock
+Cookies
+Cookies-journal
+Local State
+Preferences
+machineid
+
+# Secrets & credentials
+.env
+.env.*
+*secret*
+*token*
+*credential*
+*.pem
+*.key
+
+# Build & binary artifacts (distributed via GitHub Releases)
+*.vsix
+*.lnk
+*.zip
+node_modules/
+dist/
+out/
