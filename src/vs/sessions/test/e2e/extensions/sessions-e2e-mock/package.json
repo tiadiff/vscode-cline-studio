@@ -9,7 +9,9 @@
 	},
 	"extensionKind": ["ui", "workspace"],
 	"browser": "./extension.js",
-	"activationEvents": ["*"],
+	"activationEvents": [
+		"onAuthentication:github"
+	],
 	"enabledApiProposals": ["chatSessionsProvider"],
 	"capabilities": {
 		"virtualWorkspaces": true,
